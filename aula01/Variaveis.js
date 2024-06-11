@@ -1,4 +1,4 @@
-const AmorDaMinhaVida = [{ nome: 'Laís', sobrenome: 'Rocha', idade: 18, filha: { nome: 'Dandara', } }];
+/*const AmorDaMinhaVida = [{ nome: 'Laís', sobrenome: 'Rocha', idade: 18, filha: { nome: 'Dandara', } }];
 
 console.log(AmorDaMinhaVida)
 
@@ -14,4 +14,15 @@ console.log(template)
 const termo1 = 'variavel'
 const termo2 = `termo 2 é uma ${termo1}`
 
-console.log(termo2)
+console.log(termo2)*/
+
+let A = `A`
+let B = `B`
+let C = `C`
+
+let aux = A
+A=B
+B=C
+C=aux
+
+console.log(A,B,C)
